@@ -18,8 +18,8 @@
 		<spring-boot.version>2.1.5.RELEASE</spring-boot.version>
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 		<logstash-logback-encoder.version>6.1</logstash-logback-encoder.version>
-		<sonar.host.url>http://54.92.81.191:9000/</sonar.host.url>
 	</properties>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -38,20 +38,8 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<distributionManagement>
-		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://13.231.5.17:8081/repository/sample-releases/</url>
-			<layout>default</layout>
-		</repository>
-  	</distributionManagement>
-            <server>
-          <id>nexusRepo</id>
-          <username>admin</username>
-          <password>admin123</password>
-            </server>
-	
-        	<dependencies>
+
+	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
