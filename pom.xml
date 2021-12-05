@@ -20,6 +20,13 @@
 		<logstash-logback-encoder.version>6.1</logstash-logback-encoder.version>
 		<sonar.host.url>http://54.92.81.191:9000/</sonar.host.url>
 	</properties>
+	 <servers>
+          <server>
+          <id>nexusRepo</id>
+          <username>admin</username>
+          <password>admin123</password>
+          </server>
+        </servers>
 
 	<dependencyManagement>
 		<dependencies>
