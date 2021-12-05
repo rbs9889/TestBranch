@@ -45,15 +45,13 @@
 			<layout>default</layout>
 		</repository>
   	</distributionManagement>
-        <servers>
             <server>
           <id>nexusRepo</id>
           <username>admin</username>
           <password>admin123</password>
             </server>
-        </servers>
-
-	<dependencies>
+	
+        	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
