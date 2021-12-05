@@ -46,11 +46,11 @@
 		</repository>
   	</distributionManagement>
         <servers>
-          <server>
+            <server>
           <id>nexusRepo</id>
           <username>admin</username>
           <password>admin123</password>
-          </server>
+            </server>
         </servers>
 
 	<dependencies>
